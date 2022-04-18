@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Teeth Whitening",
+        "price": "500",
+        "description": "In this treatment your spotted teeth are become white. There are no side effects on this treatment.",
+        "img": "https://ibb.co/3N0cRt8"
+    },
+    {
+        "id": 2,
+        "name": "Gum Treatment",
+        "price": "1000",
+        "description": "A bacterial infection which causes inflammation of gums around the base of teeth. ",
+        "img": "https://ibb.co/NLJpD8m"
+    },
+    {
+        "id": 3,
+        "name": "Sleep Apnea",
+        "price": "1200",
+        "description": "A sleep disorder where breathing is interrupted repeatedly during sleep. Characterized by loud snoring and episodes of stop breathing.",
+        "img": "https://ibb.co/WxZ94CX"
+    },
+    {
+        "id": 4,
+        "name": "Root Canal",
+        "price": "5000",
+        "description": "This opening will fully expose the top of the tooth pulp, containing the tooth’s damaged nerve and blood vessels. This phase of root canal treatment is similar to the preparation stage for a filling.",
+        "img": "https://ibb.co/z6QdNyx"
+    },
+    {
+        "id": 5,
+        "name": "Implants",
+        "price": "3000",
+        "description": "A dental implant procedure is an outpatient surgery. The implant is made of titanium and other materials that fuse with your jawbone and imitate the root of a tooth. This artificial root allows the dentist to secure your replacement teeth so they feel stable and blend in with your surrounding teeth.",
+        "img": "https://ibb.co/1r4J9Mz"
+    },
+    {
+        "id": 6,
+        "name": "Dental Crown",
+        "price": "4000",
+        "description": "A dental crown is a covering for an existing tooth. It can improve the way a decayed or broken tooth looks and make it stronger and longer lasting. Crowns are usually made from porcelain, ceramic, glass or metal.",
+        "img": "https://ibb.co/nsjZP8m"
+    }
+]
