@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# DentiCare is the website based on provide efficient dental care to the patients 
+
+The live sites of this project deploy in [Firebase Deploy](https://denticare-feb16.web.app)
+
+## Different Features 
+ * Email and password Authentication
+ * Google and Github Verification
+ * Different Routes with different paths 
+ * Login and Registration pages 
+ * Only verified user can get services 
+
+ ## Technology Which are used
+ * ReactJs
+ * React Routes 
+ * Firebase Hooks 
+ * Bootstrap 5
+ * Tostify
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
