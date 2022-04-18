@@ -31,6 +31,7 @@ const Header = () => {
                             </NavDropdown> */}
                         </Nav>
                         <Nav>
+                            <Nav.Link as={Link} to="/doctor">Dr.Ruhul Amin  </Nav.Link>
                             <Nav.Link className='link btn btn-outline-warning pe-3 ps-3 pt-3 pb-0 fw-bolder' as={Link} to="#book">Book an Appointment</Nav.Link>
                             {
                                 user
