@@ -43,25 +43,23 @@ const Register = () => {
     // }
 
     return (
-        <div className='register-form border p-5'>
-            <h2 className='text-center' >Please Register first</h2>
+        <div className='register-form border p-5 bg-secondary'>
+            <h2 className='text-center' >Please <span className='text-danger fw-bold'>Register</span></h2>
             <form onSubmit={handleRegister}>
                 <input type="text" name='name' placeholder='Your Name' />
                 <input type="email" name="email" id="" placeholder='Email Address' required />
                 <input type="password" name="password" id="" placeholder='password' required />
 
                 <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
-
-                {/* <label className={agree ? 'ps-2 text-danger' : 'ps-2 text-primary'} htmlFor="terms">Accept terms and conditions</label> */}
-                <label className={`ps-2 ${agree ? 'text-primary' : 'text-danger'}`} htmlFor="terms">Accept terms and conditions</label>
+                <label className={`ps-2 ${agree ? 'text-info' : 'text-warning'}`} htmlFor="terms">Accept terms and conditions</label>
 
                 <input
                     disabled={!agree}
-                    className='w-50 mx-auto btn btn-primary mt-2'
+                    className='w-50 mx-auto btn btn-outline-info mt-2'
                     type="submit"
                     value="Register" />
             </form>
-            <p>Already Have an Account? <Link className='pe-auto text-decoration-none fs-4 text-danger' to='/login'>Please Login</Link></p>
+            <p className='text-info fs-5'>Already Have an Account? <Link className='pe-auto text-decoration-none fs-5 text-warning' to='/login'>Please Login</Link></p>
 
             <SocialLogin></SocialLogin>
 

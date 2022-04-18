@@ -19,7 +19,7 @@ const SocialLogin = () => {
         return <Loading></Loading>
     }
     if (error || error1) {
-        errorElement = <p className='text-danger'>Error: {error?.message}{error1?.message}</p>
+        errorElement = <p className='text-warning text bolder text-center fs-5'>Error: {error?.message}{error1?.message}</p>
     }
     if (user || user1) {
         navigate('/home');
@@ -34,17 +34,17 @@ const SocialLogin = () => {
                 <div style={{ height: '1px' }} className='bg-info w-50'></div>
             </div>
             {errorElement}
-            <button onClick={() => signInWithGoogle()} className='btn btn-white border mx-auto d-block w-50 my-2'>
+            <button onClick={() => signInWithGoogle()} className='btn btn-outline-warning border mx-auto d-block w-50 my-2'>
                 <img src={google} alt="" />
                 <span className='px-2'>Google SignIN</span>
             </button>
 
-            <button className='btn btn-white border mx-auto d-block w-50 my-2'>
+            <button className='btn btn-outline-primary border mx-auto d-block w-50 my-2'>
                 <img src={facebook} alt="" />
                 <span className='px-2'>FaceBook</span>
 
             </button>
-            <button onClick={() => signInWithGithub()} className='btn btn-white border mx-auto d-block w-50 my-2'>
+            <button onClick={() => signInWithGithub()} className='btn btn-outline-danger border mx-auto d-block w-50 my-2'>
                 <img src={github} alt="" />
                 <span className='px-2'>GitHub</span>
 

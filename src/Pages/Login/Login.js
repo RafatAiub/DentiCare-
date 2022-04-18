@@ -35,7 +35,7 @@ const Login = () => {
         navigate(from, { replace: true });
     }
     if (error) {
-        errorElement = <p className='text-danger'>{error.message}</p>
+        errorElement = <p className='text-warning text bolder text-center fs-5'>{error.message}</p>
     }
 
     const navigateRegister = () => {
@@ -55,7 +55,7 @@ const Login = () => {
 
     }
     return (
-        <div className='container w-50 mx-auto border p-5'>
+        <div className='container w-50 mx-auto border p-5 bg-secondary'>
             <h1 className='fw-bold text-center'>Please <span className='text-danger'>Login</span></h1>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -73,12 +73,12 @@ const Login = () => {
                 {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group> */}
-                <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
+                <Button variant="btn btn-outline-warning w-50 mx-auto d-block mb-2" type="submit">
                     Login
                 </Button>
             </Form>
-            <p className='text-center fw-bold'>New to Genius car system ??<Button className='fs-5 bolder btn btn-link bg-white border-0 text-primary text-decoration-none ' onClick={navigateRegister}><span >Please Register Now </span></Button></p>
-            <p className='text-center fw-bold'>Forget your password ??<Button className='fs-5 bolder btn btn-link bg-white border-0 text-primary text-decoration-none ' onClick={resetPass}><span >Please Reset Now</span></Button></p>
+            <p className='text-center fw-bold'>New to Genius car system ??<Button className='fs-5 bolder btn btn-link bg-secondary border-0 text-warning text-decoration-none ' onClick={navigateRegister}><span >Please Register Now </span></Button></p>
+            <p className='text-center fw-bold'>Forget your password ??<Button className='fs-5 bolder btn btn-link  border-0 bg-secondary text-warning text-decoration-none ' onClick={resetPass}><span >Please Reset Now</span></Button></p>
 
             <SocialLogin></SocialLogin>
             <ToastContainer></ToastContainer>

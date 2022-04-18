@@ -20,7 +20,8 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link className='link' as={Link} to="home#treatment">Treatments</Nav.Link>
-                            <Nav.Link className='link' as={Link} to="home#pricing">Pricing</Nav.Link>
+                            <Nav.Link className='link' as={Link} to="/blogs">Blogs</Nav.Link>
+                            <Nav.Link className='link' as={Link} to="/about-me">About Me</Nav.Link>
                             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -30,11 +31,11 @@ const Header = () => {
                             </NavDropdown> */}
                         </Nav>
                         <Nav>
-                            <Nav.Link className='link' as={Link} to="#book">Book an Appointment</Nav.Link>
+                            <Nav.Link className='link btn btn-outline-warning pe-3 ps-3 pt-3 pb-0 fw-bolder' as={Link} to="#book">Book an Appointment</Nav.Link>
                             {
                                 user
                                     ?
-                                    <button className='btn btn-link text-decoration-none text-danger fs-2' onClick={handleSignOut}>Sign OUt</button>
+                                    <button className='btn btn-outline-danger text-decoration-none  fs-4' onClick={handleSignOut}>Sign Out</button>
                                     :
                                     <Nav.Link className='link' as={Link} to="/login" >
                                         Login
