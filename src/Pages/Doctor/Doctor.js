@@ -3,7 +3,7 @@ import dr from '../../images/treatments/dr.jpg'
 
 const Doctor = () => {
     return (
-        <div className='border shadow-lg m-5 p-5 rounded'>
+        <div id='doctor' className='border shadow-lg m-5 p-5 rounded'>
             <h1 className='fs-3 text-center '>About<span className='text-danger'>Doctor</span></h1>
             <div className='text-center'>
                 <img src={dr} alt="" />

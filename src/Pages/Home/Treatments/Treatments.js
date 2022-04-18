@@ -20,8 +20,8 @@ const Treatments = () => {
     }, [])
 
     return (
-        <div className='container'>
-            <div className="row id='treatment'">
+        <div id='treatment' className='container'>
+            <div className="row">
                 <h1 className='text-center p-5 fw-bold'>Provided<span className='text-danger'>Treatments</span></h1>
                 <div className="treatments-container">
                     {
