@@ -1,0 +1,9 @@
+.link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-items: center;
+    justify-content: center;
+}
+
+.link:hover {
+    color: tomato;
+}

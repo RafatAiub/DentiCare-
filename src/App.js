@@ -6,7 +6,6 @@ import Checkout from './Pages/CheckOut/Checkout';
 import Contact from './Pages/Home/Contact/Contact';
 import HomeView from './Pages/Home/HomeView/HomeView';
 import TreatmentDetails from './Pages/Home/Treatment/TreatmentDetails';
-import Treatments from './Pages/Home/Treatments/Treatments';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Login/Register';
 import RequiredAuth from './Pages/Login/RequiredAuth';

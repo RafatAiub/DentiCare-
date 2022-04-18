@@ -1,6 +1,15 @@
 .treatment {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid lightgray;
     border-radius: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+.treatment img {
+    border-radius: 10px 10px 0 0;
 }

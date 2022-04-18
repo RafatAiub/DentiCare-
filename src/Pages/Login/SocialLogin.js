@@ -29,9 +29,9 @@ const SocialLogin = () => {
         <div className='fs-5'>
 
             <div className='d-flex align-items-center'>
-                <div style={{ height: '1px' }} className='bg-danger w-50'></div>
-                <p className='mt-2 px-2'>or</p>
-                <div style={{ height: '1px' }} className='bg-danger w-50'></div>
+                <div style={{ height: '1px' }} className='bg-info w-50'></div>
+                <p className='mt-2 px-2 text-danger fw-bolder'>or</p>
+                <div style={{ height: '1px' }} className='bg-info w-50'></div>
             </div>
             {errorElement}
             <button onClick={() => signInWithGoogle()} className='btn btn-white border mx-auto d-block w-50 my-2'>

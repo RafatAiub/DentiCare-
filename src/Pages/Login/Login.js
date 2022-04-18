@@ -56,7 +56,7 @@ const Login = () => {
     }
     return (
         <div className='container w-50 mx-auto border p-5'>
-            <h1 className='text-primary text-center'>Please Login</h1>
+            <h1 className='fw-bold text-center'>Please <span className='text-danger'>Login</span></h1>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     {/* <Form.Label>Email address</Form.Label> */}
@@ -77,8 +77,8 @@ const Login = () => {
                     Login
                 </Button>
             </Form>
-            <p>New to Genius car system ??<Button className='fs-5 bolder btn btn-link bg-white border-0 text-danger text-decoration-none ' onClick={navigateRegister}><span >Please Register Now </span></Button></p>
-            <p>Forget your password ??<Button className='fs-5 bolder btn btn-link bg-white border-0 text-primary text-decoration-none ' onClick={resetPass}><span >Please Reset Now</span></Button></p>
+            <p className='text-center fw-bold'>New to Genius car system ??<Button className='fs-5 bolder btn btn-link bg-white border-0 text-primary text-decoration-none ' onClick={navigateRegister}><span >Please Register Now </span></Button></p>
+            <p className='text-center fw-bold'>Forget your password ??<Button className='fs-5 bolder btn btn-link bg-white border-0 text-primary text-decoration-none ' onClick={resetPass}><span >Please Reset Now</span></Button></p>
 
             <SocialLogin></SocialLogin>
             <ToastContainer></ToastContainer>
