@@ -6,7 +6,7 @@ const Treatment = ({ treatment }) => {
     const { name, img, description, price } = treatment;
     const navigate = useNavigate();
     const navigateToServiceDetail = name => {
-        navigate(`/treatment/${name}`);
+        navigate(`/treatments/${name}`);
 
     }
     return (
@@ -16,7 +16,7 @@ const Treatment = ({ treatment }) => {
                 <h2>{name}</h2>
                 <p>Price: {price}</p>
                 <p><small>{description}</small></p>
-                <button onClick={() => navigateToServiceDetail(name)} className='btn btn-primary'>Book: {name}</button>
+                <button onClick={() => navigateToServiceDetail(name)} className='btn btn-primary'>Book for {name}</button>
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Treatment from '../Treatment/Treatment';
-import './Treatments.css'
+import './Treatments.css';
 
 const Treatments = () => {
     const [treatments, setTreatments] = useState([]);
@@ -12,7 +12,7 @@ const Treatments = () => {
     }, [])
 
     return (
-        <div id='treatments' className='container'>
+        <div id='treatment' className='container'>
             <div className="row">
                 <h1 className='text-primary text-center mt-5'> Our treatments</h1>
                 <div className="treatments-container">
